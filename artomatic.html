@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Art-o-matic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+<link rel="stylesheet" href="css/artomatic.css?v=4">
+</head>
+
+<body>
+<section id="loading">
+	<div id="loading-wrapper">
+		<div id="loading-icon">
+			<div class="more">
+				<div class="pieContainer">
+					<div class="pieBackground"></div>
+					<div id="pie1" class="hold move">
+						<div class="pie"></div>
+					</div>
+				</div>
+				<button class="more-art">Art</button>
+			</div>
+		</div>
+		<div id="loading-message">
+				
+		</div>
+	</div>
+</section>
+<section id="art">
+	<div id="imgs">
+		<div id="imgs-wrap" class="clearfix"></div>
+		<div id="ui">
+			<div class="more">
+				<div class="pieContainer">
+					<div class="pieBackground"></div>
+					<div id="pie2" class="hold">
+						<div class="pie"></div>
+					</div>
+					<div id="pie3" class="hold">
+						<div class="pie"></div>
+					</div>
+					<div id="pie1" class="hold">
+						<div class="pie"></div>
+					</div>
+				</div>
+				<button class="more-art" id="more-art">Art</button>
+			</div>
+			<div id="audio-controls">
+				<button id="play" class="audio-control" title+"Play Audio">
+					<svg enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g>
+							<g>
+								<path  d="M19.779,3.349l-1.111,1.664C20.699,6.663,22,9.179,22,12    c0,2.822-1.301,5.338-3.332,6.988l1.111,1.663C22.345,18.639,24,15.516,24,12C24,8.485,22.346,5.362,19.779,3.349z M17.55,6.687    l-1.122,1.68c0.968,0.913,1.58,2.198,1.58,3.634s-0.612,2.722-1.58,3.635l1.122,1.68C19.047,16.03,20,14.128,20,12    C20,9.873,19.048,7.971,17.55,6.687z M12,1c-1.177,0-1.533,0.684-1.533,0.684S7.406,5.047,5.298,6.531C4.91,6.778,4.484,7,3.73,7    H2C0.896,7,0,7.896,0,9v6c0,1.104,0.896,2,2,2h1.73c0.754,0,1.18,0.222,1.567,0.469c2.108,1.484,5.169,4.848,5.169,4.848    S10.823,23,12,23c1.104,0,2-0.895,2-2V3C14,1.895,13.104,1,12,1z" />
+							</g>
+						</g>
+					</svg>
+				</button>
+				<button id="stop" class="audio-control"  title="Mute Audio">
+					<svg enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g>
+						<g>
+							<path  d="M19.779,3.349l-1.111,1.664C20.699,6.663,22,9.179,22,12    c0,2.822-1.301,5.338-3.332,6.988l1.111,1.663C22.345,18.639,24,15.516,24,12C24,8.485,22.346,5.362,19.779,3.349z M17.55,6.687    l-1.122,1.68c0.968,0.913,1.58,2.198,1.58,3.634s-0.612,2.722-1.58,3.635l1.122,1.68C19.047,16.03,20,14.128,20,12    C20,9.873,19.048,7.971,17.55,6.687z M12,1c-1.177,0-1.533,0.684-1.533,0.684S7.406,5.047,5.298,6.531C4.91,6.778,4.484,7,3.73,7    H2C0.896,7,0,7.896,0,9v6c0,1.104,0.896,2,2,2h1.73c0.754,0,1.18,0.222,1.567,0.469c2.108,1.484,5.169,4.848,5.169,4.848    S10.823,23,12,23c1.104,0,2-0.895,2-2V3C14,1.895,13.104,1,12,1z" />
+						</g>
+					</g>
+					</svg>
+					<span id="bar"></span> 
+				</button>
+			</div>
+		</div>	<!-- /ui -->
+	</div>
+	
+</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="js/artomatic.js?v=5"></script>
+</body>
+</html>
